@@ -1,0 +1,21 @@
+#mainForm {
+    display: none;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#domainMain {
+    border-style: ridge;
+    min-height: 50px;
+}
+
+#domainAdd {
+    border-style: ridge;
+    min-height: 50px;
+}
+
+#domainList {
+    border-style: ridge;
+    min-height: 50px;
+}

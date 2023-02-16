@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button id="mainButton" onclick="displayPopup()">Display Pop-Up</button>
+        <div id="mainForm">
+            <div id="domainMain">
+                <h3>Original Domain Name</h3>
+            </div>
+            <div id="domainAdd">
+                <h3>Domain</h3>
+                <input type="text" id="sub-domain" class="sub-domain" name="sub-domain">
+                <button class="addButton" onclick="addSubDomain()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+                <div id="child"></div>
+                <button onclick="domainList()">Add Sub Domain</button>
+            </div>
+            <div id="domainList">
+                <h3>Show All Domain</h3>
+                <button onclick="showButton()">Submit</button>
+            </div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
